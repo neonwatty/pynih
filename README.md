@@ -14,9 +14,9 @@ from pynih import apis
 # illustration of project api usage
 search_criteria = {'appl_id':'9795459'}
 include_fields = ['ApplId', 'ProjectTitle']
-data = apis.query_project_api(include_fields=include_fields, search_criteria=search_criteria)
+project_data = apis.query_project_api(include_fields=include_fields, search_criteria=search_criteria)
 
-print(data)
-
-[{'appl_id': 9795459, 'project_title': 'Evaluating Whether a Concurrent Retinoid X Receptor Agonist can Enhance the Efficacy of the HER2-IGFPB2-IGF1R Vaccine in Eliminating Existing Ductal Carcinoma in Situ and Preventing Progression of Inv'}]
+# illustration of publication api usage
+search_criteria = {'pmid':'26657764'}
+publication_data = apis.query_publication_api(search_criteria=search_criteria)
 ```
