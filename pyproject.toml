@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "nih-reporter-apis"
+name = "pynih"
 version = "0.1.0"
 description = "python wrapper for nih reporter apis --> https://api.reporter.nih.gov/"
 authors = ["Jeremy Watt <jermwatt@gmail.com>"]
 readme = "README.md"
-packages = [{include = "nih_reporter_apis"}]
+packages = [{include = "pynih"}]
 
 license = "MIT"
 

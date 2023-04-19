@@ -1,4 +1,4 @@
-from nih_reporter_apis.apis import query_project_api, query_publication_api
+from pynih.apis import query_project_api, query_publication_api
 
 # test datapoints
 project_test_datapoint = [{'appl_id': 9795459, 'project_title': 'Evaluating Whether a Concurrent Retinoid X Receptor Agonist can Enhance the Efficacy of the HER2-IGFPB2-IGF1R Vaccine in Eliminating Existing Ductal Carcinoma in Situ and Preventing Progression of Inv'}]
