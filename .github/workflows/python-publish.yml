@@ -25,10 +25,12 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.10'
+        python-version: '3.x'
     - name: Install dependencies
       run: |
         curl -sSL https://install.python-poetry.org | python3 -
+    - name: Poetry installs
+      run: poetry install
     - name: Create poetry shell
       run: poetry shell
     - name: Build package
