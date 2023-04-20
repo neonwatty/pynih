@@ -1,6 +1,6 @@
-# pynih - nih reporter api access via python
+# pynih - a Python interface for the NIH's Reporter APIs
 
-pynih is a python library that provides easy access to the NIH's set of [Reporter APIs](https://api.reporter.nih.gov/).
+pynih is a Python library that provides easy access to the NIH's [Reporter APIs](https://api.reporter.nih.gov/).
 
 ## Installation
 
