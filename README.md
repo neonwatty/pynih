@@ -10,6 +10,8 @@ pynih is a Python library that provides easy access to the NIH's [Reporter APIs]
 
 ## Example usage
 
+This example can be executed in [this example notebook](https://colab.research.google.com/github/jermwatt/pynih/blob/main/pynih_example_usage.ipynb#scrollTo=mTC2IDzs7_l1).
+
 ```
 from pynih import apis
 
