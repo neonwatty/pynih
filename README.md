@@ -1,4 +1,4 @@
-[![Python application](https://github.com/jermwatt/pynih/actions/workflows/python-app.yml/badge.svg)](https://github.com/jermwatt/pynih/workflows/python-app.yml)
+[![Python application](https://github.com/jermwatt/pynih/actions/workflows/python-app.yml/badge.svg)](https://github.com/jermwatt/pynih/actions/workflows/python-app.yml)
 
 # pynih - a Python interface for the NIH's Reporter APIs
 
