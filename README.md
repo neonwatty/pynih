@@ -38,3 +38,7 @@ The project API `query_project_api` has the following input parameters:
 `offset` - Starting counter for return items (projects). Default value: 0.  Maximum allowable value: 14,999 or length of records.
 
 See [official documentation](https://api.reporter.nih.gov/#/Search/post_v2_projects_search) for further information on these inputs.
+
+
+## Notice of Non-Affiliation and Disclaimer 
+The author of this library is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NIH, or any of its subsidiaries or its affiliates. The official NIH Reporter website can be found at https://reporter.nih.gov/
