@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pynih"
-version = "0.1.2"
+version = "0.1.3"
 description = "python wrapper for nih reporter apis --> https://api.reporter.nih.gov/"
 authors = ["Jeremy Watt <jermwatt@gmail.com>"]
 readme = "README.md"
