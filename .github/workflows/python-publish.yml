@@ -31,8 +31,6 @@ jobs:
         curl -sSL https://install.python-poetry.org | python3 -
     - name: Poetry installs
       run: poetry install
-    - name: Create poetry shell
-      run: poetry shell
     - name: Build package
       run: poetry build
     - name: Publish package
