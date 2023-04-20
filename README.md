@@ -1,3 +1,5 @@
+[![Python application](https://github.com/jermwatt/pynih/actions/workflows/python-app.yml/badge.svg)](https://github.com/jermwatt/pynih/actions/workflows/python-app.yml)
+
 # pynih - a Python interface for the NIH's Reporter APIs
 
 pynih is a Python library that provides easy access to the NIH's [Reporter APIs](https://api.reporter.nih.gov/).
