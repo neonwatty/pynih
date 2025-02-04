@@ -16,7 +16,7 @@ This example can be executed in [this example notebook](https://colab.research.g
 from pynih import apis
 
 # illustration of project api usage
-search_criteria = {'appl_id':'9795459'}
+search_criteria = {'appl_ids':[9795459]}
 include_fields = ['ApplId', 'ProjectTitle']
 project_data = apis.query_project_api(include_fields=include_fields, search_criteria=search_criteria)
 
